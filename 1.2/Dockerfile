@@ -2,6 +2,8 @@ FROM ubuntu:xenial
 
 MAINTAINER Casper Bruun <cbm@berlingskemedia.dk>
 
+ENV REFRESHED_AT "2016-08-12 09:15:00"
+
 ENV FILEBEAT_VERSION=1.2.3 \
     FILEBEAT_SHA1=3fde7f5f5ea837140965a193bbb387c131c16d9c
 
