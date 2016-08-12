@@ -4,12 +4,12 @@ Filebeat is a lightweight, open source shipper for log file data. As the next-ge
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`1.2.3`, `1.2`, `1`, `latest` (*Dockerfile*)](https://github.com/primait/docker-filebeat/blob/master/1.2/Dockerfile)
--	[`5.0.0-alpha4`, `5.0.0-alpha`, `5.0-alpha`, `5-alpha` (*Dockerfile*)](https://github.com/primait/docker-filebeat/blob/master/5.0/Dockerfile)
+-	[`1.2.3`, `1.2`, `1`, `latest` (*Dockerfile*)](https://github.com/bmcbm/docker-filebeat/blob/master/1.2/Dockerfile)
+-	[`5.0.0-alpha4`, `5.0.0-alpha`, `5.0-alpha`, `5-alpha` (*Dockerfile*)](https://github.com/bmcbm/docker-filebeat/blob/master/5.0/Dockerfile)
 
 ## Build and update process
 
-This image is automatically built at every push of this repository and every time that the `debian:jessie` base image gets updated in order to ensure that bugfixes and security updates are immediately applied.
+This image is automatically built at every push of this repository and every time that the `ubuntu:xenial` base image gets updated in order to ensure that bugfixes and security updates are immediately applied.
 
 ## Run
 
