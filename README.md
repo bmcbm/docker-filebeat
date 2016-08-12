@@ -14,13 +14,13 @@ This image is automatically built at every push of this repository and every tim
 ## Run
 
 ```
-docker run -v /path/to/filebeat.yml:/filebeat.yml prima/filebeat:1
+docker run -v /path/to/filebeat.yml:/filebeat.yml bmcbm/docker-filebeat:1
 ```
 
 Or, you can create your own derived image, with the configuration in the image itself.
 
 ```dockerfile
-FROM prima/filebeat
+FROM bmcbm/docker-filebeat
 COPY my-config/filebeat.yml /filebeat.yml
 ```
 
