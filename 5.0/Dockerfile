@@ -1,6 +1,8 @@
-FROM debian:jessie
+FROM ubuntu:xenial
 
-MAINTAINER Andrea Usuelli <andrea.usuelli@prima.it>
+MAINTAINER Casper Bruun <cbm@berlingskemedia.dk>
+
+ENV REFRESHED_AT "2016-08-12 09:15:00"
 
 ENV FILEBEAT_VERSION=5.0.0-alpha4 \
     FILEBEAT_SHA1=49086e2916a13e80d2913779d5d224bcea929f5e
